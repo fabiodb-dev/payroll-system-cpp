@@ -18,7 +18,7 @@ class Employee{
             hoursWorked = 0.0;
             taxRate = tax;
         }
-        void addHours(double h);
+        void addHours(double h);  // Added in decimal system 
 
         double calculateGrossSalary() const;
 
